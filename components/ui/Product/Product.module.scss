@@ -1,0 +1,26 @@
+.productItem {
+    display: block;
+    position: relative;
+    max-width: 200px;
+    margin-right: 25px;
+}  
+
+.header {
+    position: relative;
+    // @include round();
+  }
+
+.image {
+    // @include shadow();
+    // @include round();
+    width: 150px;
+    position: relative;
+  
+    // @include media-breakpoint-up(md) {
+    //   width: 175px;
+    // }
+  }
+  .media {
+    height: 260px;
+  }
+  
